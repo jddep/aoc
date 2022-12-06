@@ -9,4 +9,4 @@ foreach ($file as $line) {
 }
 
 arsort($i);
-print_r($i);
+print(array_slice($i, 0, 1)[0]);
