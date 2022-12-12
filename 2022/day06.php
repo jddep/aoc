@@ -1,5 +1,5 @@
 <?php
-$file = file('./data/day6.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file('./data/day06.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 $file = str_split($file[0]);
 
 $chars = 1;

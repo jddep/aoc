@@ -1,5 +1,5 @@
 <?php
-$file = file('./data/day8.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file('./data/day08.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 $visible = 0;
 for ($i = 0; $i < count($file); $i++) {

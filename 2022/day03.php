@@ -1,5 +1,5 @@
 <?php
-$file = file('./data/day3.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file('./data/day03.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 /*$file = 'vJrwpWtwJgWrhcsFMMfFFhFp
 jqHRNqRjqzjGDLGLrsFMfFZSrLrFZsSL
 PmmdzqPrVvPwwTWBwg

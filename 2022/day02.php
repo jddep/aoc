@@ -1,5 +1,5 @@
 <?php
-$file = file("./data/day2.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file("./data/day02.txt", FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 $A = $X = 1;
 $B = $Y = 2;

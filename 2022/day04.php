@@ -1,5 +1,5 @@
 <?php
-$file = file('./data/day4.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file('./data/day04.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 //$file = ['2-4,6-8', '2-3,4-5', '5-7,7-9', '2-8,3-7', '6-6,4-6', '2-6,4-8'];
 
 $pairs = [];

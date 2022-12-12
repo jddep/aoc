@@ -1,5 +1,5 @@
 <?php
-$file = file('./data/day5.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+$file = file('./data/day05.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 $rows = [
 	'tdwzvp',
