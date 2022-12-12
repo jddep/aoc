@@ -1,5 +1,5 @@
 <?php
-$file = file("./data/day1.txt");
+$file = file("./data/day01.txt");
 
 $i = [];
 $elf = 1;
