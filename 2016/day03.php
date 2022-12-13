@@ -19,14 +19,15 @@ $one = [];
 $two = [];
 $three = [];
 foreach ($file as $line) {
-	$line = array_filter(explode(' ', $line));
-	print_r($line);
+	$line = array_values(array_filter(explode(' ', $line)));
+	array_push($one, $line[0]);
+	array_push($two, $line[1]);
+	array_push($three, $line[2]);
 }
-$nums = array_merge($one, $two, $three);
-sort($nums);
-print_r($nums);
+$new = array_merge($one, $two, $three);
+//print_r($new);
 $total = 0;
-for ($i = 0; $i < count($nums); $i += 3) {
-	$total += valid_triangle($nums[$i], $nums[$i + 1], $nums[$i + 2]) ? 1 : 0;
+for ($i = 0; $i < count($new); $i += 3) {
+	$total += valid_triangle($new[$i], $new[$i + 1], $new[$i + 2]) ? 1 : 0;
 }
-echo "\n". $total;
+echo $total;
